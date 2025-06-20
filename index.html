@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rohit Kumar | Front-End Developer Portfolio</title>
+  <title>Rohit Kumar | Front-End Developer</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
@@ -209,18 +209,7 @@
       justify-content: center;
       background: #10131a;
       overflow: hidden;
-    }
-
-    .hero-bg-video {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      z-index: -2;
-      opacity: 0.7;
-      filter: brightness(0.6) contrast(1.1);
+      text-align: center;
     }
 
     .hero::before {
@@ -236,7 +225,6 @@
     }
 
     .hero-content {
-      text-align: center;
       color: #fff;
       max-width: 800px;
       padding: 2rem;
@@ -627,14 +615,6 @@
 
     .contact-form .form-group {
       margin-bottom: 1.5rem;
-      position: relative;
-    }
-
-    .contact-form label {
-      display: block;
-      margin-bottom: 0.5rem;
-      color: #ccc;
-      font-size: 0.9rem;
     }
 
     .contact-form input,
@@ -704,193 +684,6 @@
     .copyright {
       color: #666;
       font-size: 0.9rem;
-    }
-
-    /* ===== New Elements ===== */
-    /* Testimonials Section */
-    .testimonials {
-      background: #0a0a0a;
-      padding: 6rem 0;
-    }
-
-    .testimonial-container {
-      max-width: 800px;
-      margin: 0 auto;
-    }
-
-    .testimonial-card {
-      background: rgba(255, 255, 255, 0.05);
-      border-radius: 15px;
-      padding: 2rem;
-      margin-bottom: 2rem;
-      border-left: 4px solid #00d9ff;
-    }
-
-    .testimonial-content {
-      font-style: italic;
-      margin-bottom: 1.5rem;
-      color: #ccc;
-    }
-
-    .testimonial-author {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-    }
-
-    .author-img {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      overflow: hidden;
-    }
-
-    .author-info h4 {
-      color: #fff;
-      margin-bottom: 0.2rem;
-    }
-
-    .author-info p {
-      color: #aaa;
-      font-size: 0.9rem;
-    }
-
-    /* Dark Mode Toggle */
-    .dark-mode-toggle {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      background: rgba(10, 10, 10, 0.8);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      z-index: 100;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-    }
-
-    .dark-mode-toggle i {
-      color: #00d9ff;
-      font-size: 1.2rem;
-    }
-
-    /* Light Mode Styles */
-    body.light-mode {
-      background: #f5f7fa;
-      color: #333;
-    }
-
-    body.light-mode .section-title {
-      background: linear-gradient(90deg, #0077b6 0%, #00a8e8 100%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
-    }
-
-    body.light-mode .section-title::after {
-      background: #0077b6;
-    }
-
-    body.light-mode .btn {
-      background: linear-gradient(90deg, #0077b6 0%, #00a8e8 100%);
-      color: white;
-    }
-
-    body.light-mode header {
-      background: rgba(255, 255, 255, 0.95);
-      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    }
-
-    body.light-mode .nav-links a {
-      color: #333;
-    }
-
-    body.light-mode .hero {
-      background: #eef2f7;
-    }
-
-    body.light-mode .about {
-      background: #f0f4f8;
-    }
-
-    body.light-mode .about-content p {
-      color: #555;
-    }
-
-    body.light-mode .stat-box {
-      background: rgba(0, 119, 182, 0.05);
-    }
-
-    body.light-mode .skills {
-      background: #e6eef5;
-    }
-
-    body.light-mode .projects {
-      background: #f0f4f8;
-    }
-
-    body.light-mode .project-card {
-      background: #fff;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    }
-
-    body.light-mode .project-content p {
-      color: #666;
-    }
-
-    body.light-mode .contact {
-      background: #e6eef5;
-    }
-
-    body.light-mode .contact-form input,
-    body.light-mode .contact-form textarea {
-      background: rgba(255, 255, 255, 0.8);
-      border: 1px solid #e1e1e1;
-      color: #333;
-    }
-
-    body.light-mode .footer {
-      background: #e6eef5;
-      border-top: 1px solid #ddd;
-    }
-
-    body.light-mode .copyright {
-      color: #777;
-    }
-
-    /* Back to Top Button */
-    .back-to-top {
-      position: fixed;
-      bottom: 80px;
-      right: 20px;
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      background: rgba(10, 10, 10, 0.8);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      cursor: pointer;
-      z-index: 100;
-      opacity: 0;
-      visibility: hidden;
-      transition: all 0.3s ease;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-    }
-
-    .back-to-top.visible {
-      opacity: 1;
-      visibility: visible;
-    }
-
-    .back-to-top i {
-      color: #00d9ff;
-      font-size: 1.2rem;
     }
 
     /* ===== Responsive Design ===== */
@@ -970,10 +763,6 @@
       .about-stats {
         grid-template-columns: repeat(2, 1fr);
       }
-
-      .contact-container {
-        grid-template-columns: 1fr;
-      }
     }
 
     @media (max-width: 576px) {
@@ -1028,6 +817,55 @@
       opacity: 1;
       visibility: visible;
     }
+    
+    /* Content Structure Improvements */
+    .content-section {
+      margin-bottom: 2.5rem;
+    }
+    
+    .content-section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1.2rem;
+      color: #00d9ff;
+      position: relative;
+      padding-bottom: 0.5rem;
+    }
+    
+    .content-section h2::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 60px;
+      height: 3px;
+      background: linear-gradient(90deg, #00d9ff 0%, #00bcd4 100%);
+      border-radius: 2px;
+    }
+    
+    .content-section p {
+      margin-bottom: 1rem;
+      color: #ccc;
+      line-height: 1.7;
+    }
+    
+    .content-section strong {
+      color: #00d9ff;
+      font-weight: 600;
+    }
+    
+    .content-section ul {
+      padding-left: 1.5rem;
+      margin: 1rem 0;
+    }
+    
+    .content-section li {
+      margin-bottom: 0.5rem;
+      color: #ccc;
+    }
+    
+    .content-section li::marker {
+      color: #00d9ff;
+    }
   </style>
 </head>
 <body>
@@ -1036,7 +874,7 @@
     <div class="container nav-container">
       <div class="logo">
         <img
-          src="https://media.istockphoto.com/id/1142611918/vector/bold-letter-r-logo-thick-one-line-creative-minimalist-style-business-card-emblem.jpg?s=612x612&w=0&k=20&c=E37ysCyGkTuMx9aJ0CB3CMPCseTCJbwQTRx-i7OPJuY="
+          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%2300d9ff' opacity='0.8'/%3E%3Ctext x='50' y='55' font-family='Arial' font-size='30' fill='white' text-anchor='middle'%3ERK%3C/text%3E%3C/svg%3E"
           alt="RK Logo"
         />
         <span class="logo-text">Rohit Kumar</span>
@@ -1047,7 +885,6 @@
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -1060,19 +897,10 @@
   <!-- Overlay for closing mobile nav -->
   <div class="nav-overlay" id="navOverlay"></div>
 
-  <!-- Hero Section with Video Background -->
+  <!-- Hero Section -->
   <section id="home" class="hero">
-    <video autoplay muted loop playsinline class="hero-bg-video">
-      <source
-        src="https://cdn.pixabay.com/vimeo/882006138/plexus-179290.mp4?width=1280&hash=8b0b8b7dca6d7d8b7d7d8b7dca6d7d8b7d7d8b7d"
-        type="video/mp4"
-      />
-      Your browser does not support the video tag.
-    </video>
     <div class="hero-content">
-      <h1 class="hero-title">
-        Hello, I'm <span>Rohit Kumar</span>
-      </h1>
+      <h1 class="hero-title">Hello, I'm Rohit Kumar</h1>
       <p class="hero-subtitle">Front-End Developer & UI/UX Enthusiast</p>
       <div class="hero-btns">
         <a href="#projects" class="btn">View My Work</a>
@@ -1093,31 +921,37 @@
           />
         </div>
         <div class="about-content reveal">
-          <h3>Front-End Developer</h3>
-          <p>
-            Hello! I'm <strong>Rohit Kumar</strong>, a passionate and curious
-            Front-End Web Developer who loves building clean, interactive, and
-            user-friendly websites. My current tech stack focuses on
-            <strong>HTML5, CSS3, and JavaScript</strong>, and I'm constantly
-            learning to improve my design and development skills.
-          </p>
-          <p>
-            I've built several small projects such as a
-            <strong>To-Do App</strong> and a <strong>Blog UI</strong> from
-            scratch, which helped me understand the core principles of web
-            development. I also use Git and GitHub for version control and
-            collaboration, ensuring organized and trackable code.
-          </p>
-          <p>
-            I'm currently exploring modern frameworks like React.js and eager
-            to dive into full-stack development. My goal is to become a
-            developer who builds high-performance, accessible, and beautiful
-            web experiences.
-          </p>
-          <p>
-            When I'm not coding, you'll find me exploring new design trends, 
-            contributing to open-source projects, or hiking in nature for inspiration.
-          </p>
+          <div class="content-section">
+            <h2>Front-End Developer</h2>
+            <p>
+              Hello! I'm <strong>Rohit Kumar</strong>, a passionate and curious
+              Front-End Web Developer who loves building clean, interactive, and
+              user-friendly websites. My current tech stack focuses on
+              <strong>HTML5, CSS3, and JavaScript</strong>, and I'm constantly
+              learning to improve my design and development skills.
+            </p>
+          </div>
+          
+          <div class="content-section">
+            <h2>My Journey</h2>
+            <p>
+              I've built several small projects such as a
+              <strong>To-Do App</strong> and a <strong>Blog UI</strong> from
+              scratch, which helped me understand the core principles of web
+              development. I also use Git and GitHub for version control and
+              collaboration, ensuring organized and trackable code.
+            </p>
+          </div>
+          
+          <div class="content-section">
+            <h2>Future Goals</h2>
+            <p>
+              I'm currently exploring modern frameworks like React.js and eager
+              to dive into full-stack development. My goal is to become a
+              developer who builds high-performance, accessible, and beautiful
+              web experiences.
+            </p>
+          </div>
 
           <div class="about-stats">
             <div class="stat-box">
@@ -1134,6 +968,127 @@
               <i class="fas fa-coffee"></i>
               <div class="number">∞</div>
               <div class="text">Coffee Cups</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section projects">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <span class="project-badge">Productivity</span>
+          <div class="project-img">
+            <img
+              src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070"
+              alt="To-Do App"
+            />
+          </div>
+          <div class="project-content">
+            <h3>To-Do App</h3>
+            <p>
+              A task management app crafted with vanilla JS, HTML & CSS.
+              Features include task creation, completion tracking, and local
+              storage.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#"
+                ><i class="fas fa-external-link-alt"></i> Live Demo</a
+              >
+              <a href="#"><i class="fab fa-github"></i> Source Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <span class="project-badge">UI/UX</span>
+          <div class="project-img">
+            <img
+              src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=2070"
+              alt="Blog UI"
+            />
+          </div>
+          <div class="project-content">
+            <h3>Blog UI</h3>
+            <p>
+              A responsive blog homepage prototype built from scratch.
+              Features modern design with grid layout and animations.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">HTML</span>
+              <span class="tech-tag">CSS</span>
+              <span class="tech-tag">Flexbox</span>
+            </div>
+            <div class="project-links">
+              <a href="#"
+                ><i class="fas fa-external-link-alt"></i> Live Demo</a
+              >
+              <a href="#"><i class="fab fa-github"></i> Source Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <span class="project-badge">API</span>
+          <div class="project-img">
+            <img
+              src="https://images.unsplash.com/photo-1601134467661-3d775b999c8b?q=80&w=1975"
+              alt="Weather App"
+            />
+          </div>
+          <div class="project-content">
+            <h3>Weather App</h3>
+            <p>
+              Get real-time weather updates for any city using a clean,
+              interactive UI with data from a weather API.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">API</span>
+              <span class="tech-tag">CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="#"
+                ><i class="fas fa-external-link-alt"></i> Live Demo</a
+              >
+              <a href="#"><i class="fab fa-github"></i> Source Code</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <span class="project-badge">AI</span>
+          <div class="project-img">
+            <img
+              src="https://img.freepik.com/premium-photo/ai-human-technology-background_1409-5588.jpg"
+              alt="Virtual Assistant"
+            />
+          </div>
+          <div class="project-content">
+            <h3>Virtual Assistant</h3>
+            <p>
+              A voice-activated assistant that helps with daily tasks and
+              information lookup using natural language processing.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Web Speech API</span>
+              <span class="tech-tag">AI</span>
+            </div>
+            <div class="project-links">
+              <a href="#"
+                ><i class="fas fa-external-link-alt"></i> Live Demo</a
+              >
+              <a href="#"><i class="fab fa-github"></i> Source Code</a>
             </div>
           </div>
         </div>
@@ -1184,15 +1139,6 @@
               <div class="skill-progress" style="width: 90%"></div>
             </div>
           </div>
-          <div class="skill-item">
-            <div class="skill-header">
-              <span>React.js</span>
-              <span>75%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 75%"></div>
-            </div>
-          </div>
         </div>
 
         <div class="skill-category reveal">
@@ -1231,178 +1177,6 @@
             </div>
             <div class="skill-bar">
               <div class="skill-progress" style="width: 92%"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="skill-header">
-              <span>Team Collaboration</span>
-              <span>85%</span>
-            </div>
-            <div class="skill-bar">
-              <div class="skill-progress" style="width: 85%"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Projects Section -->
-  <section id="projects" class="section projects">
-    <div class="container">
-      <h2 class="section-title">My Projects</h2>
-      <div class="projects-grid">
-        <div class="project-card reveal">
-          <span class="project-badge">Productivity</span>
-          <div class="project-img">
-            <img
-              src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2070"
-              alt="To-Do App"
-            />
-          </div>
-          <div class="project-content">
-            <h3>To-Do App</h3>
-            <p>
-              A task management app crafted with vanilla JS, HTML & CSS.
-              Features include task creation, completion tracking, and local
-              storage.
-            </p>
-            <div class="project-tech">
-              <span class="tech-tag">HTML</span>
-              <span class="tech-tag">CSS</span>
-              <span class="tech-tag">JavaScript</span>
-              <span class="tech-tag">LocalStorage</span>
-            </div>
-            <div class="project-links">
-              <a href="#"
-                ><i class="fas fa-external-link-alt"></i> Live Demo</a
-              >
-              <a href="#"><i class="fab fa-github"></i> Source Code</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal">
-          <span class="project-badge">UI/UX</span>
-          <div class="project-img">
-            <img
-              src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?q=80&w=2070"
-              alt="Blog UI"
-            />
-          </div>
-          <div class="project-content">
-            <h3>Blog UI</h3>
-            <p>
-              A responsive blog homepage prototype built from scratch.
-              Features modern design with grid layout and animations.
-            </p>
-            <div class="project-tech">
-              <span class="tech-tag">HTML</span>
-              <span class="tech-tag">CSS</span>
-              <span class="tech-tag">Flexbox</span>
-              <span class="tech-tag">Grid</span>
-            </div>
-            <div class="project-links">
-              <a href="#"
-                ><i class="fas fa-external-link-alt"></i> Live Demo</a
-              >
-              <a href="#"><i class="fab fa-github"></i> Source Code</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal">
-          <span class="project-badge">API</span>
-          <div class="project-img">
-            <img
-              src="https://images.unsplash.com/photo-1601134467661-3d775b999c8b?q=80&w=1975"
-              alt="Weather App"
-            />
-          </div>
-          <div class="project-content">
-            <h3>Weather App</h3>
-            <p>
-              Get real-time weather updates for any city using a clean,
-              interactive UI with data from a weather API.
-            </p>
-            <div class="project-tech">
-              <span class="tech-tag">JavaScript</span>
-              <span class="tech-tag">API</span>
-              <span class="tech-tag">CSS</span>
-              <span class="tech-tag">Fetch API</span>
-            </div>
-            <div class="project-links">
-              <a href="#"
-                ><i class="fas fa-external-link-alt"></i> Live Demo</a
-              >
-              <a href="#"><i class="fab fa-github"></i> Source Code</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="project-card reveal">
-          <span class="project-badge">AI</span>
-          <div class="project-img">
-            <img
-              src="https://img.freepik.com/premium-photo/ai-human-technology-background_1409-5588.jpg"
-              alt="Virtual Assistant"
-            />
-          </div>
-          <div class="project-content">
-            <h3>Virtual Assistant</h3>
-            <p>
-              A voice-activated assistant that helps with daily tasks and
-              information lookup using natural language processing.
-            </p>
-            <div class="project-tech">
-              <span class="tech-tag">JavaScript</span>
-              <span class="tech-tag">Web Speech API</span>
-              <span class="tech-tag">AI</span>
-              <span class="tech-tag">NLP</span>
-            </div>
-            <div class="project-links">
-              <a href="#"
-                ><i class="fas fa-external-link-alt"></i> Live Demo</a
-              >
-              <a href="#"><i class="fab fa-github"></i> Source Code</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Testimonials Section -->
-  <section id="testimonials" class="section testimonials">
-    <div class="container">
-      <h2 class="section-title">Testimonials</h2>
-      <div class="testimonial-container">
-        <div class="testimonial-card reveal">
-          <div class="testimonial-content">
-            "Rohit transformed our outdated website into a modern, responsive platform. His attention to detail and problem-solving skills were impressive. The project was delivered on time and exceeded our expectations."
-          </div>
-          <div class="testimonial-author">
-            <div class="author-img">
-              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client">
-            </div>
-            <div class="author-info">
-              <h4>Rajesh Sharma</h4>
-              <p>CTO at TechInnovate</p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="testimonial-card reveal">
-          <div class="testimonial-content">
-            "Working with Rohit on our e-commerce UI redesign was a pleasure. He has a keen eye for design and a deep understanding of user experience principles. The final product was both beautiful and functional."
-          </div>
-          <div class="testimonial-author">
-            <div class="author-img">
-              <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client">
-            </div>
-            <div class="author-info">
-              <h4>Priya Patel</h4>
-              <p>Product Manager at ShopEasy</p>
             </div>
           </div>
         </div>
@@ -1469,22 +1243,18 @@
         </div>
 
         <div class="contact-form reveal">
-          <form id="contactForm">
+          <form>
             <div class="form-group">
-              <label for="name">Your Name</label>
-              <input type="text" id="name" placeholder="Enter your name" required />
+              <input type="text" placeholder="Your Name" required />
             </div>
             <div class="form-group">
-              <label for="email">Your Email</label>
-              <input type="email" id="email" placeholder="Enter your email" required />
+              <input type="email" placeholder="Your Email" required />
             </div>
             <div class="form-group">
-              <label for="subject">Subject</label>
-              <input type="text" id="subject" placeholder="Enter subject" />
+              <input type="text" placeholder="Subject" />
             </div>
             <div class="form-group">
-              <label for="message">Your Message</label>
-              <textarea id="message" placeholder="Enter your message" required></textarea>
+              <textarea placeholder="Your Message" required></textarea>
             </div>
             <button type="submit" class="btn">Send Message</button>
           </form>
@@ -1503,23 +1273,12 @@
           <a href="#about">About</a>
           <a href="#projects">Projects</a>
           <a href="#skills">Skills</a>
-          <a href="#testimonials">Testimonials</a>
           <a href="#contact">Contact</a>
         </div>
         <p class="copyright">© 2023 Rohit Kumar. All Rights Reserved.</p>
       </div>
     </div>
   </footer>
-
-  <!-- Back to Top Button -->
-  <div class="back-to-top" id="backToTop">
-    <i class="fas fa-arrow-up"></i>
-  </div>
-
-  <!-- Dark Mode Toggle -->
-  <div class="dark-mode-toggle" id="darkModeToggle">
-    <i class="fas fa-moon"></i>
-  </div>
 
   <script>
     // Mobile Navigation Toggle
@@ -1608,59 +1367,6 @@
         }
       });
     });
-
-    // Back to top button
-    const backToTopBtn = document.getElementById("backToTop");
-    
-    window.addEventListener("scroll", () => {
-      if (window.pageYOffset > 500) {
-        backToTopBtn.classList.add("visible");
-      } else {
-        backToTopBtn.classList.remove("visible");
-      }
-    });
-    
-    backToTopBtn.addEventListener("click", () => {
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
-    });
-
-    // Dark mode toggle
-    const darkModeToggle = document.getElementById("darkModeToggle");
-    const darkModeIcon = darkModeToggle.querySelector("i");
-    
-    darkModeToggle.addEventListener("click", () => {
-      body.classList.toggle("light-mode");
-      
-      if (body.classList.contains("light-mode")) {
-        darkModeIcon.classList.remove("fa-moon");
-        darkModeIcon.classList.add("fa-sun");
-      } else {
-        darkModeIcon.classList.remove("fa-sun");
-        darkModeIcon.classList.add("fa-moon");
-      }
-    });
-
-    // Form submission
-    const contactForm = document.getElementById("contactForm");
-    
-    contactForm.addEventListener("submit", (e) => {
-      e.preventDefault();
-      
-      // Get form values
-      const name = document.getElementById("name").value;
-      const email = document.getElementById("email").value;
-      const message = document.getElementById("message").value;
-      
-      // In a real application, you would send this data to a server
-      // For this example, we'll just show an alert
-      alert(`Thank you, ${name}! Your message has been sent. I'll get back to you soon at ${email}.`);
-      
-      // Reset form
-      contactForm.reset();
-    });
   </script>
 </body>
-  </html>
+</html>
